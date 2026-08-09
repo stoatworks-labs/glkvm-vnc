@@ -29,7 +29,7 @@ It is a standalone distillation of the VNC-endpoints feature built for
 ## Quick start
 
 ```bash
-# Build (needs Go 1.24+ and Node 18+ for the frontend)
+# Build (needs Go 1.25+ and Node 18+ for the frontend)
 make build
 
 # Run the gateway
