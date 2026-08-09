@@ -1,0 +1,14 @@
+# Build output
+/bin/
+
+# Frontend deps (dist IS committed for go:embed)
+/web/frontend/node_modules/
+
+# Local databases
+*.db
+*.db-shm
+*.db-wal
+
+# Editor / OS
+.DS_Store
+*.swp
