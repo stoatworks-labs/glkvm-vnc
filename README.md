@@ -1,5 +1,11 @@
 # glkvm-vnc
 
+> **Archived / secondary.** If you want VNC servers **and** GL.iNet KVM devices
+> managed together in one UI, use the VNC-endpoints feature integrated into
+> [`glkvm-cloud`](https://github.com/stoatworks-labs/glkvm-cloud) instead — that
+> is the primary path. This repo is a standalone, glkvm-cloud-free VNC-only
+> gateway, kept for the case where you want *only* VNC without the full stack.
+
 A small, self-hosted **VNC gateway**: a web UI + [noVNC](https://novnc.com) viewer
 that bridges a browser to VNC servers — either dialled **directly** by the
 gateway, or tunnelled through a lightweight **reverse agent** so you can reach
