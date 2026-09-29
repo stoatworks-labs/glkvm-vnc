@@ -1,5 +1,8 @@
 # glkvm-vnc
 
+> **AI-assisted project.** This codebase was created with [Claude](https://claude.com/claude-code)
+> (Anthropic), directed and reviewed by a human author.
+
 > **Archived / secondary.** If you want VNC servers **and** GL.iNet KVM devices
 > managed together in one UI, use the VNC-endpoints feature integrated into
 > [`glkvm-cloud`](https://github.com/stoatworks-labs/glkvm-cloud) instead — that
@@ -109,8 +112,7 @@ cd web/frontend && npm run dev   # live frontend against a running gateway
 
 ## AI disclaimer
 
-This project was built with the assistance of AI tooling (Claude). It has been
-reviewed and tested, but you should read the code and validate it against a
+The code has been reviewed and tested, but you should read the code and validate it against a
 real VNC server for your own use before relying on it. See the tests under
 `internal/` — including a cross-check of the VNC DES implementation against
 OpenSSL and an end-to-end agent-tunnel test.
